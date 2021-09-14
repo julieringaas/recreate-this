@@ -1,1 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,300&display=swap");
+html {
+  font-family: "Arial Rounded MT Bold";
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
 /*Navbar*/
+.navbar {
+  display: flex;
+  flex-direction: right;
+  flex-flow: row;
+  list-style: none;
+  gap: 1rem;
+  margin: 30vw;
+  margin-top: 0px;
+  background-color: rosybrown;
+  align-content: center;
+}
+
+.navbar :first-child {
+  flex: auto;
+}
+
+section {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
