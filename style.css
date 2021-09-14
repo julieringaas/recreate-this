@@ -4,11 +4,6 @@ html {
   font-family: "Arial Rounded MT Bold";
 }
 
-p {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
-}
-
 /*Navbar*/
 .navbar {
   display: flex;
@@ -18,7 +13,7 @@ p {
   gap: 1rem;
   margin: 30vw;
   margin-top: 0px;
-  background-color: rosybrown;
+  background-color: #db524d;
   align-content: center;
 }
 
@@ -26,7 +21,48 @@ p {
   flex: auto;
 }
 
+/*body*/
 section {
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 33vw;
+  margin-right: 33vw;
+  margin-bottom: 7vh;
+  line-height: 2;
+}
+
+h1,
+h2 {
+  color: hsl(357, 50%, 22%);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: hsl(357, 12%, 42%);
+}
+
+ul {
+  line-height: 2;
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #db524d;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -2em;
+}
+
+ol {
+  line-height: 2;
+}
+
+strong {
+  font-family: "Arial Rounded MT Bold";
+  color: #db524d;
 }
